@@ -7,7 +7,7 @@ from drf_yasg import openapi
 schema_view = get_schema_view(
    openapi.Info(
       title="Abhinav Workspace API",
-      default_version='v1',
+      default_version='Latest v1',
       description="A REST API for Pizza Delivery Services",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="abhinavsingh0355@gmail.com"),
